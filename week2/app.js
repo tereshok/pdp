@@ -1,3 +1,4 @@
+//exercise 1
 const users = [
   { id: 1, name: "Anna", age: 25 },
   { id: 2, name: "Petro", age: 17 },
@@ -16,6 +17,7 @@ console.log(adults);
 console.log(names); 
 console.log(avgAge); 
 
+//exercise 2
 const product = {
   id: 101,
   title: "Laptop",
@@ -27,7 +29,6 @@ const product = {
   price: 1200
 };
 
-
 const {
   title,
   specs: { cpu, ram },
@@ -36,6 +37,7 @@ const {
 
 console.log(`${title} має ${cpu} та ${ram}, ціна: $${price}`);
 
+//exercise 3
 const baseSettings = {
   theme: "light",
   language: "uk",
@@ -46,7 +48,6 @@ const userSettings = {
   theme: "dark",
   notifications: false
 };
-
 
 const finalSettings = { ...baseSettings, ...userSettings };
 

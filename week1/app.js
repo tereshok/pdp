@@ -1,10 +1,10 @@
+//exercise 1
 function addElement(arr, element) {
   arr.push(element);
   return arr;
 }
 
 console.log(addElement([1,2], 3)); 
-
 
 function removeKey(obj, key) {
   delete obj[key];
@@ -13,7 +13,7 @@ function removeKey(obj, key) {
 
 console.log(removeKey({a:1, b:2}, "a")); 
 
-
+//exercise 2
 function calculator(a, b, operator) {
   switch(operator) {
     case "+": return a + b;
@@ -27,7 +27,7 @@ function calculator(a, b, operator) {
 console.log(calculator(10, 5, "+")); 
 console.log(calculator(10, 0, "/")); 
 
-
+//exercise 3
 function checkAccess(role) {
   if (role === "admin") {
     return "Full access";

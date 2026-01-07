@@ -1,3 +1,4 @@
+//exercise 1
 async function getPosts() {
   try {
     const response = await fetch('https://jsonplaceholder.typicode.com/posts');
@@ -10,7 +11,7 @@ async function getPosts() {
 
 console.log(getPosts());
 
-
+//exercise 2
 async function getPost(id) {
   try {
     const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
@@ -29,7 +30,7 @@ async function getPost(id) {
 console.log(getPost(1));
 console.log(getPost(999999));
 
-
+//exercise 3
 async function getUserPosts() {
   try {
     const usersResponse = await fetch('https://jsonplaceholder.typicode.com/users');
